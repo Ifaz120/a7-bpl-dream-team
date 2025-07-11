@@ -1,0 +1,122 @@
+[
+  {
+    "playerId": 1,
+    "name": "AB de Villiers",
+    "country": "South Africa",
+    "role": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "image": "https://i.ibb.co/Xrggb7Ff/villiers.jpg",
+    "biddingPrice": 13000000
+  },
+  {
+    "playerId": 2,
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "role": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "image": "https://i.ibb.co/Nvbbfyq/5f49714e60a9893611433de65a809939.jpg",
+    "biddingPrice": 14000000
+  },
+  {
+    "playerId": 3,
+    "name": "Hashim Amla",
+    "country": "South Africa",
+    "role": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "image": "https://i.ibb.co/Pvd60T2t/amla.jpg",
+    "biddingPrice": 9000000
+  },
+  {
+    "playerId": 4,
+    "name": "Mustafizur Rahman",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm fast-medium",
+    "image": "https://i.ibb.co/Nn1bCghH/mustafizur.jpg",
+    "biddingPrice": 7500000
+  },
+  {
+    "playerId": 5,
+    "name": "Chris Gayle",
+    "country": "West Indies",
+    "role": "Batsman",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "image": "https://i.ibb.co/ZzXCtJkp/gayle.jpg",
+    "biddingPrice": 12000000
+  },
+  {
+    "playerId": 6,
+    "name": "Mushfiqur Rahim",
+    "country": "Bangladesh",
+    "role": "Wicket-Keeper",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "None",
+    "image": "https://i.ibb.co/Xr394Bnz/mushfiqur-rahim.jpg",
+    "biddingPrice": 8200000
+  },
+  {
+    "playerId": 7,
+    "name": "David Warner",
+    "country": "Australia",
+    "role": "Batsman",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm leg-spin",
+    "image": "https://i.ibb.co/cS1QFgj0/warner.jpg",
+    "biddingPrice": 14500000
+  },
+  {
+    "playerId": 8,
+    "name": "Dale Steyn",
+    "country": "South Africa",
+    "role": "Bowler",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "image": "https://i.ibb.co/2JkxNnk/steyn.jpg",
+    "biddingPrice": 10000000
+  },
+  {
+    "playerId": 9,
+    "name": "Mitchell Starc",
+    "country": "Australia",
+    "role": "Bowler",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm fast",
+    "image": "https://i.ibb.co/j2zDF38/starc.jpg",
+    "biddingPrice": 15500000
+  },
+  {
+    "playerId": 10,
+    "name": "Brendon McCullum",
+    "country": "New Zealand",
+    "role": "Wicket-Keeper",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "None",
+    "image": "https://i.ibb.co/WvvP13St/brendon.jpg",
+    "biddingPrice": 11000000
+  },
+  {
+    "playerId": 11,
+    "name": "Glenn Maxwell",
+    "country": "Australia",
+    "role": "Allrounder",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "image": "https://i.ibb.co/tM5xMGcq/maxwell.jpg",
+    "biddingPrice": 15000000
+  },
+  {
+    "playerId": 12,
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "role": "Bowler",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm leg-spin",
+    "image": "https://i.ibb.co/v4vQTHtv/rashid.jpg",
+    "biddingPrice": 12500000
+  }
+]
