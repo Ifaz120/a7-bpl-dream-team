@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Player = ({card}) => {
+const Player = ({card , handleSelectPlayer, setPlayerPrice}) => {
   const {name ,image , country, role , biddingPrice, battingStyle, bowlingStyle} = card;
   return (
     <div className=' mx-auto border border-gray-300 p-5 rounded-xl '>
@@ -23,7 +23,13 @@ const Player = ({card}) => {
         </div>
         <div className='flex justify-between items-center'>
          <p className='font-bold'>Price: ${biddingPrice}</p>
-         <button className='p-1 text-sm font-bold text-gray-400 cursor-pointer rounded-lg border-1'>Choose Player</button>
+         
+         <button onClick={() => {
+          
+            handleSelectPlayer(card,biddingPrice);
+
+           }} className='p-1 text-sm font-bold text-gray-400 cursor-pointer rounded-lg border-1 hover:bg-gray-200'>Choose Player</button>
+         
 
         </div>
       </div>
