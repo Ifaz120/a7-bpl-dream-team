@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Player = ({card , handleSelectPlayer, setPlayerPrice}) => {
+const Player = ({card , handleSelectPlayer}) => {
   const {name ,image , country, role , biddingPrice, battingStyle, bowlingStyle} = card;
   return (
-    <div className=' mx-auto border border-gray-300 p-5 rounded-xl '>
+    <div className=' mx-auto shadow-xl border-gray-300 p-5 rounded-xl '>
       <div className='flex flex-col gap-y-2'>
         <div>
         <img className='w-[380px] h-[240px] rounded-2xl'  src={image} alt="" />
@@ -26,7 +26,7 @@ const Player = ({card , handleSelectPlayer, setPlayerPrice}) => {
          
          <button onClick={() => {
           
-            handleSelectPlayer(card,biddingPrice);
+            handleSelectPlayer(card,biddingPrice,name);
 
            }} className='p-1 text-sm font-bold text-gray-400 cursor-pointer rounded-lg border-1 hover:bg-gray-200'>Choose Player</button>
          

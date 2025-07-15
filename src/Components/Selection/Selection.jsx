@@ -2,10 +2,10 @@ import React from 'react';
 import { CiTrash } from "react-icons/ci";
 
 
-const Selection = ({selection}) => {
-  const {image,battingStyle,name} = selection;
+const Selection = ({selection,deleteBtn}) => {
+  const {image,battingStyle,name,playerId} = selection;
   return (
-    <div className='border  flex justify-between p-4 rounded-xl items-center'>
+    <div className='shadow-xl flex justify-between p-4 rounded-xl items-center'>
       <div className='flex gap-x-4'>
       <div className='w-[100px]'>
        <img  className='' src={image} alt="" />
@@ -17,7 +17,7 @@ const Selection = ({selection}) => {
 
       </div>
       <div>
-        <button className='text-red-500 text-2xl cursor-pointer '><CiTrash /></button>
+        <button onClick={() => {deleteBtn(playerId)}} className='text-red-500 text-2xl cursor-pointer '> <CiTrash /> </button>
       </div>
     </div>
   );

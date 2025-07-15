@@ -2,7 +2,7 @@ import React from 'react';
 
 const Nav = ({addMoney}) => {
   return (
-    <nav className='flex items-center justify-between w-9/10 mx-auto py-8'>
+    <nav className='flex items-center justify-between w-9/10 mx-auto py-8 sticky top-0 backdrop-blur bg-white/40 z-10'>
           <div>
             <img src="/public/Images/logo.png" alt="" />
           </div>
