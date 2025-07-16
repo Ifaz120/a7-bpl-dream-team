@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="flex flex-col sm:flex-row gap-y-3 sm:gap-y-0 gap-x-3">
           <input
             placeholder="Enter your email"
-            className="border-1 bg-white border-gray-400 rounded-lg px-15 py-2 placeholder-gray-500"
+            className="border-1 bg-white border-gray-400 rounded-lg px-2 sm:w-[300px] py-2 placeholder-gray-500"
             type="email"
             name=""
             id=""
@@ -73,12 +73,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        {/* <div>
-
-        <hr className="border-t-2 border-gray-400 w-full" />
-        <p>copyright
-        </p>
-        </div> */}
+ 
       </div>
 
       <div className="flex flex-col gap-y-6 py-10 ">
