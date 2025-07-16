@@ -3,7 +3,7 @@ import { CiTrash } from "react-icons/ci";
 
 
 const Selection = ({selection,deleteBtn}) => {
-  const {image,battingStyle,name,playerId,role} = selection;
+  const {image,name,playerId,role} = selection;
   return (
     <div className='shadow-xl flex justify-between p-4 rounded-xl items-center'>
       <div className='flex gap-x-4'>
