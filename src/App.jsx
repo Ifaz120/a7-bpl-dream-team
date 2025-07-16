@@ -6,6 +6,7 @@ import Players from './Components/Players.jsx/Players';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Selections from './Components/Selections/Selections';
+import Footer from './Components/Footer/Footer';
 
 
 function App() {
@@ -98,6 +99,8 @@ function App() {
           showDiv ? <Players setPlayerPrice={setPlayerPrice} handleSelectPlayer={handleSelectPlayer} ></Players> :  <Selections deleteBtn={deleteBtn} setShowDiv={setShowDiv} handleClick={handleClick} playerSelect={playerSelect}></Selections>
 
         }
+
+        <Footer></Footer>
         
 
         

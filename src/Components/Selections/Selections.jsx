@@ -3,7 +3,7 @@ import Selection from '../Selection/Selection';
 
 const Selections = ({playerSelect,handleClick,setShowDiv,deleteBtn}) => {
   return (
-    <div className='w-9/10 mx-auto my-10 flex flex-col gap-y-5 min-h-50'>
+    <div className='w-9/10 mx-auto my-10 flex flex-col gap-y-5 min-h-50 mb-50'>
       {
         playerSelect.length === 0 
           ? <p></p>
