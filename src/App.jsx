@@ -69,10 +69,10 @@ function App() {
         <Nav addMoney={addMoney}></Nav>
         <Banner claimMoney={claimMoney}></Banner>
 
-        <div className="flex justify-between w-9/10 mx-auto  my-8">
+        <div className="flex justify-between w-9/10 mx-auto  my-8 items-center">
 
          {
-          showDiv ? <h2 className="text-2xl font-bold">Available Players</h2> : <h2 className="text-2xl font-bold">Selected player {playerSelect.length}/6</h2>
+          showDiv ? <h2 className=" sm:text-2xl font-bold">Available Players</h2> : <h2 className="sm:text-2xl font-bold">Selected player {playerSelect.length}/6</h2>
          }
 
           
@@ -83,14 +83,14 @@ function App() {
                 setShowDiv(true)
 
               }
-            } className={`py-2 cursor-pointer px-3 rounded-l-xl ${clicked ==='Available' ? 'bg-[#E7FE29]':'bg-gray-200'}  font-bold`}>
+            } className={`sm:py-2 text-sm sm:text-lg cursor-pointer p-2 sm:px-3 rounded-l-xl ${clicked ==='Available' ? 'bg-[#E7FE29]':'bg-gray-200'}  font-bold`}>
               Available
             </button>
             <button onClick={()=> {
               handleClick('selected');
               setShowDiv(false)
               
-              }} className={`py-2 cursor-pointer px-3 rounded-r-xl ${clicked === 'selected' ? 'bg-[#E7FE29]' :'bg-gray-200' } font-bold `}>Selected ({playerSelect.length})
+              }} className={`sm:py-2 text-sm sm:text-lg cursor-pointer p-2 sm:px-3 rounded-r-xl ${clicked === 'selected' ? 'bg-[#E7FE29]' :'bg-gray-200' } font-bold `}>Selected ({playerSelect.length})
             </button>
           </div>
         </div>

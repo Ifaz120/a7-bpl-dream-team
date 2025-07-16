@@ -14,7 +14,7 @@ const Players = ({notify , handleSelectPlayer , setPlayerPrice}) => {
     <div className='mx-auto w-9/10 flex flex-col gap-y-8 mt-8 mb-80'>
       
       
-    <div className=' grid grid-cols-3 gap-5'>
+    <div className=' grid grid-cols-1 lg:grid-cols-3 gap-3'>
       {
         cards.map(card => <Player setPlayerPrice={setPlayerPrice} key={card.playerId} handleSelectPlayer={handleSelectPlayer} notify={notify}  card={card}></Player>)
       }
