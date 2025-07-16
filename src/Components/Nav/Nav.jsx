@@ -4,7 +4,7 @@ const Nav = ({addMoney}) => {
   return (
     <nav className='flex items-center justify-between w-9/10 mx-auto py-8 sticky top-0 backdrop-blur bg-white/40 z-10 text-xs sm:text-lg'>
           <div>
-            <img className='w-20 sm:w-auto' src="/public/Images/logo.png" alt="" />
+            <img className='w-20 sm:w-auto' src="/Images/logo.png" alt="" />
           </div>
           <div className=''>
             <ul className='flex gap-x-3 sm:gap-x-8 font-bold items-center'>

@@ -28,7 +28,7 @@ const Footer = () => {
 
       {/* footer section */}
       <div className="w-9/10 mx-auto mt-[240px] flex flex-col justify-center items-center gap-y-10">
-        <img className="w-25" src="/public/Images/logo-footer.png" alt="" />
+        <img className="w-25" src="/Images/logo-footer.png" alt="" />
         <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-x-30 gap-y-5 text-white">
           <div className="">
             <h5 className="font-bold text-xl">About Us</h5>
