@@ -59,7 +59,7 @@ const Footer = () => {
             <p className="text-gray-400 ">
               Subscribe to our newsletter for the latest updates.
             </p>
-            <div>
+            <div className="flex">
               <input
                 placeholder="Enter your Email"
                 className="bg-white px-4 py-2 rounded-l-lg placeholder-gray-500 text-black"
